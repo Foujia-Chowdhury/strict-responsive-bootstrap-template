@@ -1,0 +1,325 @@
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (min-width:320px) and (max-width: 375px) {
+     
+    .nav-link{
+		padding: 8px 0 !important;
+	}
+
+     .navbar-brand{
+	  	margin-left: 16px;
+	  }
+	  .navbar-toggler{
+	  	margin-right:16px;
+	  }
+     /*banner*/
+	#banner .row{
+		min-height: 500px;
+
+	   }
+	.banner-content h2{
+		font-size: 70px;
+		padding-bottom:20px;
+
+       } 
+
+    .banner-content span{
+    	width : 265px;
+
+	   }
+
+    .banner-content p{
+    	padding: 20px 0 35px;
+
+       }
+
+    .banner-conten .btn{
+    	font-size:14px;
+    	height:50px;
+    	width: 170px;
+    	line-height:50px;
+       
+       }
+
+       .banner-content .lower-icon a{
+	      transform: translate(0px, 30px);
+	      -webkit-transform: translate(0px, 30px);
+	      -moz-transform: translate(0px, 30px);
+
+        }
+    @keyframes down{
+
+	   0%{
+          transform: translate(0px, 30px);
+          -webkit-transform: translate(0px,30px);
+	      -moz-transform: translate(0px, 30px);
+	     }
+	   100%{
+          transform: translate(0px, 80px);
+	      -webkit-transform: translate(0px, 80px);
+	      -moz-transform: translate(0px, 80px);
+    	  }
+
+        }
+
+    /*banner*/
+    /*services*/
+    .service-content h3{
+    	font-size: 18px;
+    }
+    .s-item{
+    	padding-top:15px;
+    }
+    /*services*/
+    /*footer*/
+    footer p{
+    	text-align: center;
+    }
+    footer .social{
+    	margin-top: 15px;
+    }
+    footer .social .nav{
+    	justify-content: center !important;
+    }
+
+}
+@media (min-width:376px ) and (max-width: 575.98px) { 
+	/*navbar*/
+	.nav-link{
+		padding: 8px 0 !important;
+	  }
+	  .navbar-brand{
+	  	margin-left: 16px;
+	  }
+	  .navbar-toggler{
+	  	margin-right:16px;
+	  }
+	/*navbar*/
+	/*banner*/
+	#banner .row{
+		min-height: 500px;
+
+	   }
+	.banner-content h2{
+		font-size: 65px;
+		padding-bottom:20px;
+
+       } 
+
+    .banner-content span{
+    	width : 350px;
+	   }
+
+    .banner-content p{
+    	font-size: 18px;
+    	padding: 20px 0 35px;
+
+       }
+
+    .banner-conten .btn{
+    	font-size:14px;
+    	height:50px;
+    	width: 170px;
+    	line-height:50px;
+       
+       }
+
+    .banner-content .lower-icon a{
+	      transform: translate(0px, 30px);
+	      -webkit-transform: translate(0px, 30px);
+	      -moz-transform: translate(0px, 30px);
+
+        }
+    @keyframes down{
+
+	   0%{
+          transform: translate(0px, 30px);
+          -webkit-transform: translate(0px,30px);
+	      -moz-transform: translate(0px, 30px);
+	     }
+	   100%{
+          transform: translate(0px, 80px);
+	      -webkit-transform: translate(0px, 80px);
+	      -moz-transform: translate(0px, 80px);
+    	  }
+
+        }
+    /*banner*/
+    /*services*/
+    #services {
+          padding: 0px !important;
+        }
+     .service-content p {
+          padding-bottom: 25px;
+        }
+       
+    .s-item{
+    	padding-top:15px;
+       }
+       
+        /*services*/
+       /*footer*/
+     footer p{
+    	text-align: center;
+       }
+     footer .social{
+    	margin-top: 15px;
+       }
+     footer .social .nav{
+    	justify-content: center !important;
+      }
+ 
+  }
+
+    
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width:576px) and (max-width: 767.98px) {
+	/*navbar*/
+
+	.nav-link{
+        padding: 8px 0px !important;
+    }
+	.navbar-brand{
+	  	margin-left: 16px;
+	  }
+	  .navbar-toggler{
+	  	margin-right:16px;
+	  }
+	/*navbar*/
+	/*banner*/
+	#banner .row{
+		min-height: 500px;
+
+	   }
+	.banner-content h2{
+		font-size: 75px;
+		padding-bottom:20px;
+
+       } 
+
+    .banner-content span{
+    	width : 450px;
+
+	   }
+
+    .banner-content p{
+    	font-size: 15px !important;
+    	padding: 20px 0 35px;
+
+       }
+
+    .banner-conten .btn{
+    	font-size:14px;
+    	height:50px;
+    	width: 170px;
+    	line-height:50px;
+       
+       }
+
+    .banner-content .lower-icon a{
+	      transform: translate(0px, 30px);
+	      -webkit-transform: translate(0px, 30px);
+	      -moz-transform: translate(0px, 30px);
+
+        }
+    @keyframes down{
+
+	   0%{
+          transform: translate(0px, 30px);
+          -webkit-transform: translate(0px,30px);
+	      -moz-transform: translate(0px, 30px);
+	     }
+	   100%{
+          transform: translate(0px, 80px);
+	      -webkit-transform: translate(0px, 80px);
+	      -moz-transform: translate(0px, 80px);
+    	  }
+
+        }
+    /*banner*/
+    /*services*/
+    #services {
+          padding: 0px !important;
+        }
+    .services-heading h2{
+	      font-size: 34px !important;
+        }
+        .services-heading p {
+          font-size: 16px !important;
+        }
+     .service-content p {
+          width: 68% !important;
+          margin: auto !important;
+          font-size: 16px;
+          word-spacing: 3px;
+          padding-bottom: 28px;
+        }
+    .service-content h3{
+    	font-size: 18px;
+    }
+    .s-item{
+    	padding-top:15px;
+    }
+    /*services*/
+    /*gallery*/
+    #gallery {
+    padding: 65px 0 !important;
+ 
+   }
+   /*gallery*/
+   /*footer*/
+    footer p{
+    	text-align: center;
+    }
+    footer .social{
+    	margin-top: 15px;
+    }
+    footer .social .nav{
+    	justify-content: center !important;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+   /*navbar*/
+	.nav-link{
+		padding: 8px 0 !important;
+	}
+	.navbar-brand{
+	  	margin-left: 10px;
+	  }
+	  .navbar-toggler{
+	  	margin-right: 31px;
+	  }
+	/*navbar*/
+	/*services*/
+	#services {
+          padding: 0px !important;
+        }
+    
+     .service-content p {
+          padding-bottom: 28px;
+        }  
+
+	 .service-content h3{
+		font-size:18px;
+
+	}
+	.s-item{
+    	padding-top: 15px !important;
+    }
+	/*services*/
+
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	.custom-control-label {
+    padding-right: 122px !important;
+   }
+   .btn-primary {
+    padding: 13px 44px !important;
+}
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+   
